@@ -1,21 +1,9 @@
-// div
-const menuToggle = document.querySelector(".menu-toggle input"),
-  nav = document.querySelector(".nav ul");
-
-menuToggle.addEventListener("click", function () {
-  nav.classList.toggle("slide");
-});
-
-// akhir div
-// ----------------
-// circular progress
-// cp1
 let circularProgress = document.querySelector(".circular-progress"),
   progressValue = document.querySelector(".progress-value");
 
 let progressStartValue = 0,
   progressEndValue = 80,
-  speed = 60;
+  speed = 100;
 
 let progress = setInterval(() => {
   progressStartValue++;
@@ -29,4 +17,3 @@ let progress = setInterval(() => {
     clearInterval(progress);
   }
 }, speed);
-// akhir circular progress
