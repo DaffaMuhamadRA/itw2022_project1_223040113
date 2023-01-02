@@ -1,5 +1,4 @@
 .body {
-  /* overflow-x: hidden; */
   font-family: "Source Sans Pro";
 }
 .container {
@@ -15,8 +14,21 @@
   height: 50px;
   align-items: center;
 }
-
-.nav .logo {
+.logo {
+  color: #0000;
+  background: linear-gradient(90deg, #1493ce 50%, #fff 0) var(--_p, 100%) / 200%
+    no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: all 1s;
+}
+.logo h4 {
+  cursor: pointer;
+}
+.logo:hover {
+  --_p: 0%;
+}
+.nav {
   font-family: pacifico;
   color: white;
 }
@@ -32,6 +44,10 @@
   color: white;
 }
 
+.nav ul a:hover {
+  color: burlywood;
+  transition: all 0.5s;
+}
 /* hamburger-menu */
 .menu-toggle {
   display: none;
@@ -160,38 +176,6 @@
   background-color: #c10528;
 }
 
-@keyframes text-animation {
-  0% {
-    margin-top: 0;
-  }
-  10% {
-    margin-top: 0;
-  }
-  20% {
-    margin-top: -5.62rem;
-  }
-  30% {
-    margin-top: -5.62rem;
-  }
-  40% {
-    margin-top: -11.24rem;
-  }
-  60% {
-    margin-top: -11.24rem;
-  }
-  70% {
-    margin-top: -5.62rem;
-  }
-  80% {
-    margin-top: -5.62rem;
-  }
-  90% {
-    margin-top: 0;
-  }
-  100% {
-    margin-top: 0;
-  }
-}
 /* akhir text */
 
 /* astronaut */
@@ -439,6 +423,7 @@
 }
 .contact h2 {
   font-size: 20px;
+  font-weight: bold;
 }
 .contact-container {
 }
@@ -486,6 +471,11 @@ form textarea {
 .button h3 {
   text-transform: uppercase;
 }
+button:hover {
+  background-color: #c10528;
+
+  animation: all 2s;
+}
 /* footer */
 .footer {
   width: 100%;
@@ -498,6 +488,38 @@ form textarea {
   color: white;
 }
 /* animation */
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -5.62rem;
+  }
+  30% {
+    margin-top: -5.62rem;
+  }
+  40% {
+    margin-top: -11.24rem;
+  }
+  60% {
+    margin-top: -11.24rem;
+  }
+  70% {
+    margin-top: -5.62rem;
+  }
+  80% {
+    margin-top: -5.62rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
 @-webkit-keyframes melayang {
   0% {
     -webkit-transform: translatey(-10px);
