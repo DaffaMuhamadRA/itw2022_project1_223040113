@@ -249,7 +249,7 @@
 .skills-card {
   display: flex;
   flex-direction: column;
-  width: 420px;
+  width: 320px;
   padding: 50px 0;
   align-items: center;
   background-color: #fff;
