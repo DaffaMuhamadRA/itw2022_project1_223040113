@@ -73,7 +73,7 @@
       <!-- -------- -->
       <!-- about -->
       <div class="about">
-        <div class="profile" id="about">
+        <div class="profile" id="about" data-aos="fade-right" data-aos-duration="1500">
           <img
             src="img/foto/WhatsApp Image 2022-12-31 at 21.50.43.jpeg"
             alt=""
@@ -92,9 +92,9 @@
       <!-- akhir about -->
       <!-- ------ -->
       <!-- skills -->
-      <div class="skills">
+      <div class="skills" >
         <h2 id="skills">Skills</h2>
-        <div class="skills-card">
+        <div class="skills-card" data-aos="fade-up" data-aos-duration="1000">
           <div class="circular-progress">
             <span class="progress-value">0%</span>
           </div>
@@ -107,7 +107,7 @@
       <div class="project" id="project">
         <h1>Project</h1>
         <div class="row1-container">
-          <div class="box box-down cyan">
+          <div class="box box-down cyan" data-aos="flip-left">
             <h2>PYTHON</h2>
             <br />
             <p>Sanitizer Otomatis</p>
@@ -115,21 +115,21 @@
             <img src="img/icon/python.png" alt="" />
           </div>
 
-          <div class="box red">
+          <div class="box red" data-aos="flip-up">
             <h2>HTML</h2>
             <br />
             <p>Login Form</p>
             <img src="img/icon/transparent/Other-html-5-icon.webp" alt="" />
           </div>
 
-          <div class="box box-down blue">
+          <div class="box box-down blue" data-aos="flip-right">
             <h2>CSS</h2>
             <br />
             <p>Portofolio</p>
             <img src="img/icon/transparent/css-removebg-preview.webp" alt="" />
           </div>
         </div>
-        <div class="row2-container">
+        <div class="row2-container" data-aos="flip-down">
           <div class="box orange">
             <h2>NETWORKING</h2>
             <br />
@@ -178,6 +178,9 @@
     <!-- java -->
     <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
     <!-- script.js -->
     <script src="js/script.js"></script>
   </body>
