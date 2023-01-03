@@ -447,7 +447,6 @@ form textarea {
   display: flex;
   justify-content: center;
   text-align: center;
-  min-width: 500px;
   border: 2px solid black;
   border-radius: 4px;
   box-shadow: 4px 8px rgb(65, 21, 105);
