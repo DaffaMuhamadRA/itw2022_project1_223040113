@@ -470,10 +470,10 @@ form textarea {
 
 .button h3 {
   text-transform: uppercase;
+  font-family: cursive;
 }
 button:hover {
-  background-color: #c10528;
-
+  background-color: #0fc981;
   animation: all 2s;
 }
 /* footer */
